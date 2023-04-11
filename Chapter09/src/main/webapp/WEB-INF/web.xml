@@ -19,4 +19,24 @@
     <servlet-name>SecondServlet</servlet-name>
     <url-pattern>/second</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetcookieValue</display-name>
+    <servlet-name>GetcookieValue</servlet-name>
+    <servlet-class>sec02.ex01.GetcookieValue</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetcookieValue</servlet-name>
+    <url-pattern>/GetcookieValue</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SetCookieValue</display-name>
+    <servlet-name>SetCookieValue</servlet-name>
+    <servlet-class>sec02.ex01.SetCookieValue</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SetCookieValue</servlet-name>
+    <url-pattern>/SetCookieValue</url-pattern>
+  </servlet-mapping>
 </web-app>
